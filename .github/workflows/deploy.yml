@@ -120,4 +120,4 @@ jobs:
             cd /home/ubuntu/server/web
             sudo fuser -k -n tcp 8080 || true
             nohup java -jar run.jar > ./output.log 2>&1 &
-            rm -rf /home/ubuntu/server/demo
+            rm -rf /home/ubuntu/server/demo 
